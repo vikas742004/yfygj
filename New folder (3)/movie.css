@@ -1,0 +1,49 @@
+*{box-sizing: border-box;
+}
+nav{
+    background: chocolate;
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+}
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gallery{
+    margin: 5px;
+    border: 5px solid;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+body{
+    margin: 0;
+    background: rgb(130, 139, 0);
+}
+.desc a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    
+}
